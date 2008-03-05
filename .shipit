@@ -1,0 +1,6 @@
+steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
+
+svk.tagpattern = //mirror/handlino/tags/Markaya-perl-%v
+
+CheckChangeLog.files = Changes
+
