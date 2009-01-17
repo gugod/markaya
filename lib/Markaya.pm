@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use v5.8.3;
 use HTML::Entities;
-use YAML::LibYAML qw();
+use YAML::XS qw();
 
 our $VERSION = '0.0.3';
 
@@ -16,7 +16,7 @@ sub new {
 sub load {
     my $self = shift;
     my $str  = shift;
-    $self->{document} = YAML::LibYAML::Load($str);
+    $self->{document} = YAML::XS::Load($str);
 }
 
 sub to_html {
@@ -112,7 +112,7 @@ Markaya requires no configuration files or environment variables.
 
 =head1 DEPENDENCIES
 
-L<YAML::LibYAML>
+L<YAML::XS>
 
 =head1 INCOMPATIBILITIES
 
