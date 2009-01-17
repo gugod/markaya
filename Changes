@@ -1,5 +1,8 @@
 Revision history for Markaya
 
+0.40
+- YAML::LibYAML Renamed to YAML::XS
+
 0.0.3  Mon Jun 18 08:34:42 CST 2007
 - documenting
 

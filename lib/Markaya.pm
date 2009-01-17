@@ -6,7 +6,7 @@ use v5.8.3;
 use HTML::Entities;
 use YAML::XS qw();
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.40';
 
 sub new {
     my $class = shift;

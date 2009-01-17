@@ -14,11 +14,10 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Markaya.pm
 Makefile.PL
-MANIFEST
-META.yml			# Will be created by "make dist"
+MANIFEST			This list of files
+META.yml
 README
 t/00.load.t
-t/perlcritic.t
-t/pod-coverage.t
-t/pod.t
-
+xt/perlcritic.t
+xt/pod-coverage.t
+xt/pod.t
